@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VarzeaCup</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container">
+        <h1 class="titulo-principal">Insira os dados do Time</h1>
+        <form class="form">
+            <label>Nome:</label>
+            <input type="text" class="nome" name="nome"/>
+            <label>Quantidade de vitorias:</label>
+            <input type="number" class="vitorias" name="vitorias"/>
+            <label>Quantidade de empates:</label>
+            <input type="number" class="empates" name="empates"/>
+            <label>Quantidade de derrotas:</label>
+            <input type="number" class="derrotas" name="derrotas"/>
+            
+            <button type="submit" formaction="../php/inserir_time.php" formmethod="post">Cadastrar</button>
+        </form>
+    </section>
+</body>
+</html>
